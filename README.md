@@ -13,8 +13,8 @@ Proyek ini bertujuan untuk melakukan analisis sentimen menggunakan data Twitter 
 4. Random Forest dengan Word2Vec CBOW (Baseline dan Tuned) tanpa stopwords
 
 ## Eksperimen LSTM
-5. LSTM dengan pemrosesan teks
-6. LSTM tanpa pemrosesan teks
+1. LSTM dengan pemrosesan teks
+2. LSTM tanpa pemrosesan teks
 
 ## Struktur Proyek
 
