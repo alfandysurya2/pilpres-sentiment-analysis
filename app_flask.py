@@ -20,8 +20,8 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 # rf_model_sg_tuned = joblib.load(os.path.join(model_folder, 'model_rf_sg_tuned.joblib'))
 # model_w2v_sg = Word2Vec.load(model_folder, 'word2vec_model_sg_min_8_window_6.bin')
 
-rf_model_sg_tuned = joblib.load(r"C:\Users\alfan\Bootcamp NLP Indonesia AI\SentimentAnalysis\models\model_rf_sg_tuned_sw.joblib")
-model_w2v_sg = Word2Vec.load(r"C:\Users\alfan\Bootcamp NLP Indonesia AI\SentimentAnalysis\models\word2vec_model_sg_min_8_window_6_sw.bin")
+rf_model_sg_tuned = joblib.load(r"C:\Users\alfan\Bootcamp NLP Indonesia AI\pilpres-sentiment-analysis\models\model_rf_sg_tuned_sw.joblib")
+model_w2v_sg = Word2Vec.load(r"C:\Users\alfan\Bootcamp NLP Indonesia AI\pilpres-sentiment-analysis\models\word2vec_model_sg_min_8_window_6_sw.bin")
 
 @app.route('/')
 def home():
